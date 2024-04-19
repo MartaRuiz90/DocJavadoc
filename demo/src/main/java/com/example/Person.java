@@ -7,8 +7,6 @@ public abstract class Person {
 
 
 
-
-
     public String getName() {
         return name;
     }
@@ -24,8 +22,9 @@ public abstract class Person {
 
 
 
-    public Person() {
+    public Person(String name, String identifier) {
+        this.name = name;
+        this.identifier = identifier;
     }
-
 
 }

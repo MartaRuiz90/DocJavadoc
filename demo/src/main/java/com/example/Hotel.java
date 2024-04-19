@@ -50,11 +50,5 @@ public class Hotel {
         this.manager = manager;
     }
 
-
-    @Override
-    public String toString() {
-        return "Hotel [name=" + name + ", address=" + address + ", web=" + web + ", manager=" + manager + "]";
-    }
-    
     
 }

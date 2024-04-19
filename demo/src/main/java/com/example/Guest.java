@@ -15,10 +15,11 @@ public class Guest extends Person{
         this.nationality = nationality;
     }
 
-    public Guest(String nationality) {
+
+    public Guest(String name, String identifier, String nationality) {
+        super(name, identifier);
         this.nationality = nationality;
     }
     
-    
-    
+
 }
